@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    password: workouts
+    username: workouts
+    url: jdbc:mysql://localhost:3306/workouts
+
+logging:
+  level:
+    root: warn
+    '[com.trainingfinal]': debug
